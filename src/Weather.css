@@ -1,0 +1,19 @@
+#weather{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: url(https://i.gifer.com/embedded/download/Vp9H.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#weather > div {
+    background-color: rgba(242, 250, 92, 0.577);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+} 

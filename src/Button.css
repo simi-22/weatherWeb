@@ -1,0 +1,19 @@
+#button ul{
+    display: flex;
+    justify-content: center;
+}
+
+#button ul li button {
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #8d8c8c;
+    font-size: 15px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+#button ul li button:hover {
+    border: 1px solid #62adf3;
+    color: #ffffff;
+    background-color:#62adf3;
+}
