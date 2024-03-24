@@ -12,8 +12,8 @@
     align-items: center;
 }
 #weather > div {
-    background-color: rgba(242, 250, 92, 0.577);
-    padding: 20px;
+    background-color: rgba(240, 240, 240, 0.577);
+    padding: 40px;
     box-sizing: border-box;
     border-radius: 20px;
 } 

@@ -1,9 +1,10 @@
-#button ul{
+#button{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
-#button ul li button {
+#button button {
     border: 1px solid #ccc;
     margin-right: 10px;
     border-radius: 10px;
@@ -12,8 +13,8 @@
     padding: 5px 10px;
     box-sizing: border-box;
 }
-#button ul li button:hover {
-    border: 1px solid #62adf3;
+#button button:hover {
+    border: 1px solid #8d8c8c;
     color: #ffffff;
-    background-color:#62adf3;
+    background-color:#8d8c8c;
 }
