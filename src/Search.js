@@ -12,9 +12,6 @@ const Search = ({ onSearch, onSearchEnter, setCityName, cityName, isFocused, set
       onSearch(cityName);
     }
   };
-  const handleListClick = () => {
-    setIsFocused(true);
-  };
 
   // 도시 리스트에서 이름을 가져와서 해당 도시의 날씨 정보 보여주기
   const handleListItemClick = (city, event) => {
@@ -39,7 +36,7 @@ const Search = ({ onSearch, onSearchEnter, setCityName, cityName, isFocused, set
           />
         <button onClick={handleClick}>검색</button>
       </div>
-      <ul className={`search-list ${isFocused ? 'show' : ''}` } tabIndex={0} onClick={handleListClick}>
+      <ul className={`search-list ${isFocused ? 'show' : ''}` } tabIndex={0}>
       <li onClick={() => handleListItemClick('Prague')}>Prague</li>
       <li onClick={() => handleListItemClick('New York')}>New York</li>
       <li onClick={() => handleListItemClick('Manila')}>Manila</li>
