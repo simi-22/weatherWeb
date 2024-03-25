@@ -65,6 +65,7 @@ function App() {
       }
       const data = await response.json();
       setWeather(data);
+      setIsFocused(false);
     } catch (error) {
       alert(error.message);
     } finally {
@@ -83,7 +84,6 @@ function App() {
   };
 
   const handleGetCurrentLocation = () => {
-    setIsFocused(true); // 버튼 클릭 시 포커스 상태 변경
     getCurrentLocation();
   };
   
